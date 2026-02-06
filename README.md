@@ -10,6 +10,11 @@ This repository is for Group 3 in Booz Allen's 2026 UNH Hackathon
 |-- Notebooks                             # For data exploration and manipulation
 |  |-- data_correllation_exploration.ipynb
 |-- Frontend                              # Placeholder for whatever we create as our frontend deliverable
-|--venv                                   # Assuming we want to set up a virtual environment
 |-- README.md
+|--docs # Contains documentation for the project
+|--model-server # API that exposes endpoints to run predictions
+|--|-- requirements.txt # Dependencies for the model server
+|--|-- main.py # Main file for the model server, contains API endpoints and logic to load and run the model
 ```
+
+
